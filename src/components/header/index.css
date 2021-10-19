@@ -1,0 +1,20 @@
+.header {
+  background-color: #112b3e;
+  width: 100%;
+  min-height: 85px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: .3s all ease-in;
+}
+
+.header a:hover {
+    transform: scale(1.1);
+}
