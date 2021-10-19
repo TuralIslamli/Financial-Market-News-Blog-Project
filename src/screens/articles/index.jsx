@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import './index.css'
 
 const Articles = (props) => {
-    console.log(props)
     return(
         <div className="articles_list">
             {props.data.map((item, index)=>{

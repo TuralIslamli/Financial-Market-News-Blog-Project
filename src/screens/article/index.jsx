@@ -5,7 +5,6 @@ import "./index.css"
 class Article extends React.Component {
     
     render(){
-        console.log(this.props.match.params);
         let index = this.props.match.params;
         
         return(
